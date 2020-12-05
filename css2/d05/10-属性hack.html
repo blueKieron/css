@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style type="text/css">
+    body{
+      background-color: burlywood;
+      /* 假设在IE6中需要将背景颜色设置为黄色才能达到和其他浏览器同样的效果
+    希望黄色背景只在IE6中生效 */
+
+      /* _  则该样式在ie6及一下的浏览器中才能使用
+      *  ie7及一下浏览器
+      _background-color: yellow; */
+      
+      /* 在样式最后添加一个\0则只有在IE8及以上的浏览器才能识别
+      background-color:yellow\0; */
+    }
+    
+
+  </style>
+</head>
+<body>
+  
+</body>
+</html>

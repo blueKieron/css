@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style type="text/css">
+    .box1{
+      /* 使用width来设置盒子内容区的宽度
+      使用height来设置盒子内容区的宽度 */
+      width: 100px;
+      height:100px;
+      background-color: rosybrown;
+
+      /* 为元素设置边框必须指定三个样式
+        border-width：边框的宽度
+        border-color: 边框的颜色
+        border-style: 边框的样式 
+            可选值：
+              none 默认值 没有边框
+              solid 实线
+              dotted 点状边框
+              dashed 虚线   
+              double 双线     
+      */
+
+      border-width: 1px;
+      border-color: royalblue;   /* style也可以分别指定四个边的边框样式，规则和width一致 */
+      border-style: solid;         /* style也可以分别指定四个边的边框样式，规则和width一致 */
+
+      /* 使用border-width可以分别指定四个边框的宽度 
+          如果在border-width中设置了四个值 则四个值会分别设置给上右下左，按照顺时针的方向设置
+          如果指定三个值 会分别设置给上 左右 下
+          如果指定两个值 会分别设置给上下 左右
+
+          除了border-width css还提供了四个border-xxx-width
+            可能是top right bottom left 专门用来设置指定边的宽度
+      */
+      /* border-width: 10px 20px 30px 40px; */
+
+      /* 设置边框
+        大部分的浏览器中，边框的宽度和颜色都是有默认值，而边框的样式默认值都是none */
+      /* border 边框的简写样式，通过它可以同时设置四个边框的样式，宽度，颜色
+             而且没有任何的顺序要求  不能分别指定
+         border-top border-right border-bottom border-left
+      */
+      border:1px skyblue soild;
+    }
+  </style>
+</head>
+<body>
+  
+  <div class="box1"></div>
+</body>
+</html>

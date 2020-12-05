@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style type="text/css">
+    .p1{
+      /* text-transform可以用来设置文本的大小写
+        可选值：
+          none 默认值，该怎么显示就怎么显示，不做任何处理
+          capitalize 单词首字母大写，通过空格识别单词
+          uppercase 所有的字母都大写
+          lowercase 多有的字母都小写 
+      */
+      text-transform: uppercase;
+    }
+
+    a{
+      /* 超链接会默认添加下划线，也就是超链接的text-decoration的默认值是underline
+        如果需要去除超链接的下划线则需要将该样式设置为none */
+        text-decoration: none;
+    }
+    .p2{
+      /* text-decoration可以用来设置文本的修饰
+        可选值：
+        none 默认值，不添加任何修饰，正常显示
+        underline 为文本添加下划线
+        overline 为文本添加上划线
+        line-though 为文本添加删除线 */
+      text-decoration: line-through;
+    }
+    .p3{
+      /* letter-spacing可以指定字符间距 */
+      letter-spacing: 10px;
+
+      /* word-spacing可以设置单词之间的距离
+            实际上就是设置词与词之间空格的大小
+     */
+      word-spacing: 10px;
+    }
+    .p4{
+      /* text-align用于设置文本的对齐方式
+        可选值：
+        left 默认值 文本靠左对齐
+        right 文本靠右对齐
+        center 文本居中对齐
+        justify 两端对齐 通过调整文本之间的空格的大小 来达到两端对齐的目的
+       */
+       text-align: justify;
+    }
+    .p5{
+      /* text-indent设置首行缩进 
+            当给他指定一个正值时，会自动向右侧缩进指定的像素
+            当给他指定一个负值时，会自动向左侧缩进指定的像素
+              通过这种方式可以将一些不想显示的文字隐藏起来
+
+      */
+      /* text-indent: 32px; */
+      text-indent: 2em;
+    }
+  </style>
+</head>
+<body>
+  <p class="p5"> 
+    MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMmmmmmmmmmmmmmmmmmmm
+  </p>
+  <p class="p4"> 
+    MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMmmmmmmmmmmmmmmmmmmm
+  </p>
+  <p class="p3"> 
+    MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMmmmmmmmmmmmmmmmmmmm
+  </p>
+  <a href="#">我是超链接 没有下划线</a>
+  <p class="p2"> 
+    MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMmmmmmmmmmmmmmmmmmmm
+  </p>
+  <p class="p1"> 
+    MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMmmmmmmmmmmmmmmmmmmm
+  </p>
+</body>
+</html>

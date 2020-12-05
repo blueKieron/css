@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style type="text/css">
+    .box{
+      width:100px;
+      height:100px;
+
+      /* 颜色单位：
+        在css可以直接使用颜色的单词来表示不同的颜色
+          红色：red 蓝色：blue  
+        也可以使用rgb值来表示不同的颜色
+          所谓的rgb值指的是通过red green blue三原色
+          通过这三种颜色的不同浓度，来表示出不同的颜色
+          rgb(红色浓度，绿色的浓度，蓝色的浓度)  颜色的浓度需要一个0-255的值
+                                              浓度也可以采用一个百分数来设置，需要一个0%-100%之间的数值
+        也可以使用十六进制的rgb值来表示颜色，原理和上边rgb原理一样
+           使用十六进制数来代替，使用三组两位的十六进制数组来表示一个颜色
+           每组表示一个颜色
+           语法：#红色绿色蓝色
+           十六进制：
+           0 1 2 3 4 5 6 7 8 9 a b c d e f
+           00-ff
+           00表示没有，相当于rgb中的0
+           ff表示最大，相当于rgb中的255    
+
+           两位重复的颜色，可以简写 比如#ff0000可以写成#f00       
+      */
+      /* background-color: rgb(255,3,23); */
+      background-color: #ff0000;
+
+    }
+  </style>
+</head>
+<body>
+  <div class="box"></div>
+</body>
+</html>

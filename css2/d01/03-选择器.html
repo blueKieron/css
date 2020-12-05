@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style type="text/css">
+    /* 元素选择器
+      作用：通过元素选择器可以选择页面中的所有指定元素
+      语法：标签名{} 
+      
+    */
+    p{
+      color:red;
+    }
+    h1{
+      color:red;
+    }
+
+    /* id选择器
+      通过元素的id属性值选中唯一的一个元素
+      语法：#id属性值{} 
+    */
+    #p1{
+      font-size: x-large;
+    }
+
+    /* 类选择器
+    通过元素的class属性值选中一组元素
+    语法：.class属性值{}
+    可以同时为一个元素设置多个class属性值，多个值之间使用空格隔开 */
+    .p2{
+      color:red;
+    }
+    .p3{
+      font-size: 50px;
+    }
+
+    /* 为id为p1，class为p2，还有height: 1px;同时设置一个背景颜色为黄色 */
+    /* 选择器分组(并集选择器)
+    通过选择器分组可以同时选中多个选择器对应的元素
+    语法：选择器1，选择器2，选择器3{} */
+    #p1,.p2,h1{
+      background-color:yellow;
+    }
+
+    /* 统配选择器
+    它可以用来选中页面中所有的元素
+    语法：*{} */
+    /* *{
+      color:red;
+    } */
+
+    /* 为拥有class为p3的span元素设置一个背景颜色为黄色 */
+    /* 复合选择器（交集选择器）
+    作用：可以选中同时满足多个选择器的元素
+    语法：选择器1选择器2选择器N{{}} */
+  span.p3{
+    background-color: yellow;
+  }
+  </style>
+</head>
+<body>
+  <h1>minneng</h1>
+  <p>chuheridangwu</p>
+  <p id="p1">chuheridangwu</p>
+
+  <p>chuheridangwu</p>
+  
+  <!-- 我们可以为元素设置class属性，class属性和id属性类似，
+       只不过class属性可以重复 -->
+  <p class="p2 p3">chuheridangwu</p>
+  <p class="p2">chuheridangwu</p>
+
+  <p class="p3">chuheridangwu</p>
+  <span class="p3">handihexiatuuuuuuuuuu</span>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style type="text/css">
+    .box1{
+      width: 1600px;
+      height: 899px;
+      margin:0 auto;
+      /* background-image设置背景图片 
+          如果背景图片大于图片元素，默认会显示左上角
+          如果背景图片和元素一样大，会将背景图片全部显示
+          如果图片小于元素大小，则会默认将背景图片平铺以充满元素
+
+          可以同时为一个元素指定背景颜色和背景图片，这样颜色将会作为背景图片的底色
+          一般情况下设置背景图片时都会同时指定一个背景颜色
+      */
+      background-image: url(img/q.jpg);
+
+      /* background-repeat用于设置背景图片的重复方式
+        可选值：
+          repeat，默认值，背景图片会双方向重复
+          no-repeat 背景图片不会重复
+          repeat-x 背景图片沿水平方向重复
+          repeat-y 背景图片沿垂直方向重复 */
+    }
+  </style>
+</head>
+<body>
+  <div class="box1"></div>
+</body>
+</html>

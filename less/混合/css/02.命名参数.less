@@ -1,0 +1,12 @@
+.triangle(@w,@c){
+  width: @w;
+  height: 0;
+  border-width: 40px;
+  border-style:dashed solid dashed dashed;
+  border-color:transparent @c transparent transparent ;
+  overflow: hidden;
+}
+
+#wrap >.sjx{
+  .triangle(40px,@c:pink)
+}

@@ -1,0 +1,8 @@
+#wrap > .sjx {
+  width: 40px;
+  height: 0;
+  border-width: 40px;
+  border-style: dashed solid dashed dashed;
+  border-color: transparent pink transparent transparent;
+  overflow: hidden;
+}

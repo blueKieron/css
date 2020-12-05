@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    *{
+      margin:0;
+      padding:0;
+    }
+    #wrap{
+      width:400px;
+      height:300px;
+      border:1px solid;
+      margin:100px auto;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: flex-start;
+    }
+    #wrap > .item{
+      width:50px;
+      height:50px;
+      background-color: pink;
+      text-align:center;
+      line-height: 50px;
+      /* flex-grow: 1; */
+      /* flex-basis: 1; */
+    }
+    #wrap > .item:nth-child(1){
+      /* flex-grow定义弹性盒子项的拉伸因子 默认值为0 */
+      /* 规则：
+        可用空间=(容器大小-所有相邻项目flex-basis的总和)
+        可扩展空间=(可用空间/所有相邻项目flex-grow的总和)
+        每项伸缩大小=(伸缩基准值+(可扩展空间*flex-grow值)) */
+
+
+      /* flex-grow: 4; */
+    }
+
+  </style>
+</head>
+<body>
+  <div id="wrap">
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+    <div class="item">4</div>
+    <div class="item">5</div>
+  </div>
+</body>
+</html>
