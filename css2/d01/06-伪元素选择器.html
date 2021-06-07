@@ -9,27 +9,27 @@
     /* 使用伪元素来表示元素中的一些特殊的位置*/
 
     /* 为p中第一个字符来设置一个特殊的样式 */
-    p:first-letter{
+    p::first-letter{
       color:darkgray;
       font-size:20px;
     }
 
     /* 为p中的第一行设置一个背景颜色为黄色 */
-    p:first-line{
+    p::first-line{
       background-color: darkolivegreen;
     }
 
-    /* :before表示元素最前面的部分
+    /* ::before表示元素最前面的部分
     一般before都需要结合content这个样式一起使用
     通过content可以向before或after的位置添加一些内容 
 
-      :after表示元素的最后面部分
+      ::after表示元素的最后面部分
     */
-    p:before{
+    p::before{
       content:"我会出现在最前面";
       color:salmon;
     }
-    p:after{
+    p::after{
       content:"我会出现在最后面";
       color:salmon;
     }
