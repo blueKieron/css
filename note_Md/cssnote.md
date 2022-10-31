@@ -16,10 +16,10 @@
 > 3.**清除浮动**
 > 4.**BFC可以阻止标准流元素被浮动元素覆盖**
 
-
+## 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDY5MzkyNDcsLTIxMzM2MDkxMDMsLT
-EwOTA5NTg5NDBdfQ==
+eyJoaXN0b3J5IjpbMTA3NTkzNDc0NywtMjEzMzYwOTEwMywtMT
+A5MDk1ODk0MF19
 -->
