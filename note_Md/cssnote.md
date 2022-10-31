@@ -9,10 +9,12 @@
 > 6.**表格单元格，table-cell**
 > 7.**弹性布局，flex**
 
->1，解决外边距的塌陷问题(垂直塌陷)
+> 解决部分问题  
+> 1.  **解决外边距的塌陷问题(垂直塌陷)**
+> 2. **利用BFC解决包含塌陷**
 
 
-2，利用BFC解决包含塌陷
+
 
 有时候我们给子元素加margin可能会带着父元素一起跑
 
@@ -47,5 +49,6 @@
 原文链接：https://blog.csdn.net/sqLeiQ/article/details/125261564
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQxNDc2MDEsLTEwOTA5NTg5NDBdfQ==
+eyJoaXN0b3J5IjpbLTIxMzM2MDkxMDMsLTEwOTA5NTg5NDBdfQ
+==
 -->
