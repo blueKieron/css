@@ -1,5 +1,6 @@
 
 ## bfc（**Block Formatting Context**）
+[原文链接](https://blog.csdn.net/sqLeiQ/article/details/125261564)
 > 实现bfc方法
 > 1.**body根元素**
 > 2.**设置浮动，不包括none**
@@ -14,9 +15,11 @@
 > 2.**利用BFC解决包含塌陷**
 > 3.**清除浮动**
 > 4.**BFC可以阻止标准流元素被浮动元素覆盖**
-https://blog.csdn.net/sqLeiQ/article/details/125261564
+
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4MDMwMTAwNywtMjEzMzYwOTEwMywtMT
-A5MDk1ODk0MF19
+eyJoaXN0b3J5IjpbLTE0NDY5MzkyNDcsLTIxMzM2MDkxMDMsLT
+EwOTA5NTg5NDBdfQ==
 -->
