@@ -11,11 +11,6 @@
 
 >1，解决外边距的塌陷问题(垂直塌陷)
 
-开发中，前端的布局手段，离不开外边距margin，那么，也会遇到一些问题，例如外边距的垂直塌陷问题。
-
-
-看上面的例子，两个盒子都有100的外边距，但是实际上两个盒子的距离却只有100px，按理来说应该是200才对，这就是margin垂直塌陷。那要解决这个问题只需要给这两个盒子都加一个父元素，并且将这个父元素设置成BFC区域，就可以解决这个margin塌陷的问题。
-
 
 2，利用BFC解决包含塌陷
 
@@ -52,5 +47,5 @@
 原文链接：https://blog.csdn.net/sqLeiQ/article/details/125261564
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTA5NTg5NDBdfQ==
+eyJoaXN0b3J5IjpbNzQxNDc2MDEsLTEwOTA5NTg5NDBdfQ==
 -->
