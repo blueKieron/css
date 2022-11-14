@@ -25,7 +25,7 @@
 > *使用百分比作为元素外边距（margin）或填充（padding）的单位时，值是以包含块的**内联尺寸**进行计算的，也就是元素的水平宽度。在我们的示例中，所有的外边距或填充都是宽度的 10%。请记住一个事实，当你使用百分比作为元素外边距或填充的单位时，你将得到一个相同尺寸的外边距或填充。*
 
 > 当使用 `object-fit` 时，替换元素可以以多种方式被调整到合乎盒子的大小。*cover fill contain*
-> 在对替换元素使用各种 CSS 布局时，你可能会发现他们的表现方式与其他元素有一些细节>上的差异。例如，flex 或者 grid 布局中，默认情况下元素会被拉伸到充满整块区域。但是
+> 在对替换元素使用各种 CSS 布局时，你可能会发现他们的表现方式与其他元素有一些细节上的差异。例如，flex 或者 grid 布局中，默认情况下元素会被拉伸到充满整块区域。但是
  图像不会被拉伸，而会对齐到网格区域或者弹性容器的起始处。
 >  为了强制图像拉伸，以充满其所在的网格单元，你必须做类似于下面的事情：
 >  ``` css
@@ -47,6 +47,7 @@
 >   }
 >  ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0OTQxOTA1Myw1NDQwNTc4NTMsMTM0Mz
-E0NzE5NSwtMTU3OTI3ODQxNywxMjU5NTM2NzVdfQ==
+eyJoaXN0b3J5IjpbMzQ1NzY5NjM3LC02NDk0MTkwNTMsNTQ0MD
+U3ODUzLDEzNDMxNDcxOTUsLTE1NzkyNzg0MTcsMTI1OTUzNjc1
+XX0=
 -->
