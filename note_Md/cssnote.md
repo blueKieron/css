@@ -28,18 +28,22 @@
 > 在对替换元素使用各种 CSS 布局时，你可能会发现他们的表现方式与其他元素有一些细节>上的差异。例如，flex 或者 grid 布局中，默认情况下元素会被拉伸到充满整块区域。但是
  图像不会被拉伸，而会对齐到网格区域或者弹性容器的起始处。
 >  为了强制图像拉伸，以充满其所在的网格单元，你必须做类似于下面的事情：
-> ``` css
+>  ``` css
 > img {
 >  width: 100%;
 >  height: 100%;
 >}
-> ```
+>  ```
 
 ## css原生变量
-> `` `css
-> 
-> ``
+> ```  css
+>  :root {
+>  --main-bg-color: brown;
+
+  
+}
+>  ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE5MTg2MjEsNjU4NTEyMjU3LC0xNTc5Mj
+eyJoaXN0b3J5IjpbNjk5NDA2NzM1LDkxOTE4NjIxLC0xNTc5Mj
 c4NDE3LDEyNTk1MzY3NV19
 -->
