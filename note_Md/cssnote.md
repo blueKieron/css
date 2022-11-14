@@ -35,6 +35,9 @@
 >  height: 100%;
 >}
 > ```
+
+## css原生变量
+> 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1OTUzNjc1XX0=
+eyJoaXN0b3J5IjpbLTc0MzcxNTA0NywxMjU5NTM2NzVdfQ==
 -->
