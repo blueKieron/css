@@ -38,13 +38,10 @@
 ## css原生变量
 > ```  css
 >  :root {
->  --main-bg-color: brown;
->  
-
-  
-}
+>     --main-bg-color: brown;
+>  }
 >  ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0MzE0NzE5NSw2OTk0MDY3MzUsLTE1Nz
-kyNzg0MTcsMTI1OTUzNjc1XX0=
+eyJoaXN0b3J5IjpbLTE3ODg2NzU2NjMsMTM0MzE0NzE5NSwtMT
+U3OTI3ODQxNywxMjU5NTM2NzVdfQ==
 -->
