@@ -42,11 +42,11 @@
 >  }
 >  ```
 >  ```
-> .five {
-> background-color: var(--main-bg-color);
->}
+>  .five {
+>      background-color: var(--main-bg-color);
+>   }
 >  ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ0MDU3ODUzLDE2ODM0NjY2MDMsMTM0Mz
+eyJoaXN0b3J5IjpbLTY0OTQxOTA1Myw1NDQwNTc4NTMsMTM0Mz
 E0NzE5NSwtMTU3OTI3ODQxNywxMjU5NTM2NzVdfQ==
 -->
