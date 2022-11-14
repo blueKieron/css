@@ -36,10 +36,10 @@
 > ```
 
 ## css原生变量
-> `` css
+> `` `css
 > 
 > ``
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU4NTEyMjU3LC0xNTc5Mjc4NDE3LDEyNT
-k1MzY3NV19
+eyJoaXN0b3J5IjpbOTE5MTg2MjEsNjU4NTEyMjU3LC0xNTc5Mj
+c4NDE3LDEyNTk1MzY3NV19
 -->
