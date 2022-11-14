@@ -41,7 +41,13 @@
 >     --main-bg-color: brown;
 >  }
 >  ```
+>  ```
+
+> .five {
+> background-color: var(--main-bg-color);
+>}
+>  ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODg2NzU2NjMsMTM0MzE0NzE5NSwtMT
-U3OTI3ODQxNywxMjU5NTM2NzVdfQ==
+eyJoaXN0b3J5IjpbMTY4MzQ2NjYwMywxMzQzMTQ3MTk1LC0xNT
+c5Mjc4NDE3LDEyNTk1MzY3NV19
 -->
