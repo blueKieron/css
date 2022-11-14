@@ -42,12 +42,11 @@
 >  }
 >  ```
 >  ```
-
 > .five {
 > background-color: var(--main-bg-color);
 >}
 >  ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4MzQ2NjYwMywxMzQzMTQ3MTk1LC0xNT
-c5Mjc4NDE3LDEyNTk1MzY3NV19
+eyJoaXN0b3J5IjpbNTQ0MDU3ODUzLDE2ODM0NjY2MDMsMTM0Mz
+E0NzE5NSwtMTU3OTI3ODQxNywxMjU5NTM2NzVdfQ==
 -->
