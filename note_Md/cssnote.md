@@ -39,11 +39,12 @@
 > ```  css
 >  :root {
 >  --main-bg-color: brown;
+>  
 
   
 }
 >  ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk5NDA2NzM1LDkxOTE4NjIxLC0xNTc5Mj
-c4NDE3LDEyNTk1MzY3NV19
+eyJoaXN0b3J5IjpbMTM0MzE0NzE5NSw2OTk0MDY3MzUsLTE1Nz
+kyNzg0MTcsMTI1OTUzNjc1XX0=
 -->
