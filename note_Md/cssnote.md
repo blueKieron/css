@@ -52,13 +52,13 @@
 > ``` css
 > ```
 > @supports (display: grid) {
-> .item {
+>  .item {
 >      width: auto;
   }
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5ODUzMjI5MywzNDU3Njk2MzcsLTY0OT
-QxOTA1Myw1NDQwNTc4NTMsMTM0MzE0NzE5NSwtMTU3OTI3ODQx
-NywxMjU5NTM2NzVdfQ==
+eyJoaXN0b3J5IjpbLTE0MzEwNjAwMTMsMTg5ODUzMjI5MywzND
+U3Njk2MzcsLTY0OTQxOTA1Myw1NDQwNTc4NTMsMTM0MzE0NzE5
+NSwtMTU3OTI3ODQxNywxMjU5NTM2NzVdfQ==
 -->
