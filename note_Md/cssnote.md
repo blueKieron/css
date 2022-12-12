@@ -48,17 +48,16 @@
 >  ```
 
 ## 特性查询
-> 特性查询允许你测试一个浏览器是否支持任何特定的一个 CSS 特性。这就是说，你可以写一些面向不支持某项特性的浏览> 器的 CSS，然后检查以了解浏览器是否支持，如果支持的话就可以加进你的复杂布局了。
+> 特性查询允许你测试一个浏览器是否支持任何特定的一个 CSS 特性。这就是说，你可以写一些面向不支持某项特性的浏览  器的 CSS，然后检查以了解浏览器是否支持，如果支持的话就可以加进你的复杂布局了。
 > ``` css
-> ```
 > @supports (display: grid) {
 >  .item {
 >      width: auto;
-  }
-}
-```
+>   }
+> }
+> ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzEwNjAwMTMsMTg5ODUzMjI5MywzND
+eyJoaXN0b3J5IjpbMTcyODY1ODgyOSwtMTQzMTA2MDAxMywzND
 U3Njk2MzcsLTY0OTQxOTA1Myw1NDQwNTc4NTMsMTM0MzE0NzE5
 NSwtMTU3OTI3ODQxNywxMjU5NTM2NzVdfQ==
 -->
