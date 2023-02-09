@@ -5,9 +5,9 @@
 ![snipaste](/imgs/2023-02-07/kChDNtJduwd4bg4e.png)
 
 ## 盒子宽度
-![输入图片说明](/imgs/2023-02-09/ahrAzHDZS1BFPcvJ.png)
+![盒子宽度](/imgs/2023-02-09/ahrAzHDZS1BFPcvJ.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3NTkzNTkwMywtMTY0MjA1NjU0NCwtMj
-A1MTY1NDIzMCwtNTY1OTE0NTM2LDEyODUyMTE3NTIsOTgxNzkx
-MjgsMTI1OTUzNjc1XX0=
+eyJoaXN0b3J5IjpbODAyNTI0MzM1LC0xNjQyMDU2NTQ0LC0yMD
+UxNjU0MjMwLC01NjU5MTQ1MzYsMTI4NTIxMTc1Miw5ODE3OTEy
+OCwxMjU5NTM2NzVdfQ==
 -->
