@@ -34,9 +34,10 @@
 （追加图标: 选selection.json文件上传，追加后下载替换）
 ```
 
-## 
+## 三角形
+![输入图片说明](/imgs/2023-02-27/LemJQy6RWQ62DUNf.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5NDc5NDAwMiwtMzk3MjYyOTY2LC0yMD
+eyJoaXN0b3J5IjpbLTU2NDY3MjQwNywtMzk3MjYyOTY2LC0yMD
 A4Njc0NjY3LC0yMDY2NTMxNjIyLDczMjA1NTMyOCwtMjYzOTc4
 OTY0LDkxNzM0NzY4LDYzNjk2NDUyLC0yMDUzNDQ0MjAyLDE3Nz
 A0MzQ2MTAsMTg4NDE0Nzc1OSw4MDI1MjQzMzUsLTE2NDIwNTY1
