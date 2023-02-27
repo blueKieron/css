@@ -29,9 +29,9 @@
 
 ## icomoon
 ```
-1. 网站上选择内容并下载，
+1. 网站上选择内容并下载，font文件夹fang'w
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODgwMTc1NjYsLTIwMDg2NzQ2NjcsLT
+eyJoaXN0b3J5IjpbLTE0MDc0MzE5ODEsLTIwMDg2NzQ2NjcsLT
 IwNjY1MzE2MjIsNzMyMDU1MzI4LC0yNjM5Nzg5NjQsOTE3MzQ3
 NjgsNjM2OTY0NTIsLTIwNTM0NDQyMDIsMTc3MDQzNDYxMCwxOD
 g0MTQ3NzU5LDgwMjUyNDMzNSwtMTY0MjA1NjU0NCwtMjA1MTY1
