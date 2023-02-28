@@ -33,14 +33,12 @@
 2. 复制图标内容 加font-family属性
 （追加图标: 选selection.json文件上传，追加后下载替换）
 ```
+## san'jiao
 
 ## 三角形 表格轮廓 大小拖动
 ![输入图片说明](/imgs/2023-02-27/LemJQy6RWQ62DUNf.png)
 
 ![输入图片说明](/imgs/2023-02-27/EPP20KwfVT00SIL9.png)
-
-##
-![输入图片说明](/imgs/2023-02-28/2yOjwVe7VKyYVvAF.png)![输入图片说明](/imgs/2023-02-28/Hait4doqekFWV978.png)![输入图片说明](/imgs/2023-02-28/QqvRp1aVJI1xJukb.png)![输入图片说明](/imgs/2023-02-28/HDRPcVq8O0UDsG9b.png)
 
 ## vertical-align
 ![输入图片说明](/imgs/2023-02-27/JlBBvHtfDceuZzcI.png)
@@ -50,13 +48,13 @@
 ![输入图片说明](/imgs/2023-02-27/c34snI5NZcvDt2Ap.png)
 ![输入图片说明](/imgs/2023-02-27/iUJucny4qeA0TcGu.png)
 
-##![输入图片说明](/imgs/2023-02-28/MPdulveAmfRftdhd.png)
+##
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0MjczMzg0Miw4NjQ0MTQ5NzQsNTI3Mj
-A4MTU4LDg2NDQxNDk3NCw1MjcyMDgxNTgsLTg4MTgyMzc2NSwt
-MTU5MTY4MjA1LDM1NDY2NzczMywtNTY0NjcyNDA3LC0zOTcyNj
-I5NjYsLTIwMDg2NzQ2NjcsLTIwNjY1MzE2MjIsNzMyMDU1MzI4
-LC0yNjM5Nzg5NjQsOTE3MzQ3NjgsNjM2OTY0NTIsLTIwNTM0ND
-QyMDIsMTc3MDQzNDYxMCwxODg0MTQ3NzU5LDgwMjUyNDMzNV19
-
+eyJoaXN0b3J5IjpbLTE5MjM0OTg3ODQsODY0NDE0OTc0LDUyNz
+IwODE1OCw4NjQ0MTQ5NzQsNTI3MjA4MTU4LC04ODE4MjM3NjUs
+LTE1OTE2ODIwNSwzNTQ2Njc3MzMsLTU2NDY3MjQwNywtMzk3Mj
+YyOTY2LC0yMDA4Njc0NjY3LC0yMDY2NTMxNjIyLDczMjA1NTMy
+OCwtMjYzOTc4OTY0LDkxNzM0NzY4LDYzNjk2NDUyLC0yMDUzND
+Q0MjAyLDE3NzA0MzQ2MTAsMTg4NDE0Nzc1OSw4MDI1MjQzMzVd
+fQ==
 -->
