@@ -35,9 +35,7 @@
 ```
 
 ## 三角形 表格轮廓 大小拖动
-![输入图片说明](/imgs/2023-02-27/LemJQy6RWQ62DUNf.png)
-![输入图片说明](/imgs/2023-02-28/dd7qyHVFb2bciORE.png)
-![输入图片说明](/imgs/2023-02-27/EPP20KwfVT00SIL9.png)
+![输入图片说明](/imgs/2023-02-27/LemJQy6RWQ62DUNf.png)![输入图片说明](/imgs/2023-02-27/EPP20KwfVT00SIL9.png)
 
 ## vertical-align
 ![输入图片说明](/imgs/2023-02-27/JlBBvHtfDceuZzcI.png)
@@ -46,9 +44,8 @@
 ## 省略号
 ![输入图片说明](/imgs/2023-02-27/c34snI5NZcvDt2Ap.png)
 ![输入图片说明](/imgs/2023-02-27/iUJucny4qeA0TcGu.png)
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA5NjYyMTY5LDg2NDQxNDk3NCw1MjcyMD
+eyJoaXN0b3J5IjpbNTI3MjA4MTU4LDg2NDQxNDk3NCw1MjcyMD
 gxNTgsLTg4MTgyMzc2NSwtMTU5MTY4MjA1LDM1NDY2NzczMywt
 NTY0NjcyNDA3LC0zOTcyNjI5NjYsLTIwMDg2NzQ2NjcsLTIwNj
 Y1MzE2MjIsNzMyMDU1MzI4LC0yNjM5Nzg5NjQsOTE3MzQ3Njgs
