@@ -1,5 +1,5 @@
 ## EMMENT语法
-![快速生成html结构语法](/imgs/2023-01-29/0Q6veYoON202wX4n.png)
+![image](https://user-images.githubusercontent.com/48239113/222026982-ac9ccb0a-0300-4ea6-bfa8-6a0e495dbe05.png)
 
 ## snipaste工具
 ![snipaste](/imgs/2023-02-07/kChDNtJduwd4bg4e.png)
