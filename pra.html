@@ -1,33 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <style type="text/css">
-    .box1{
+    .box1 {
+      position: relative;
       width: 200px;
       height: 200px;
       background-color: steelblue;
       float: left;
     }
-    .box2{
-      width: 200px;
-      height: 200px;
+
+    .box2 {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      width: 100px;
+      height: 100px;
       background-color: beige;
       float: left;
     }
-    .box3{
+
+    .box3 {
       width: 200px;
       height: 200px;
       background-color: blanchedalmond;
       float: left;
     }
+
+    @font-face {
+      font-family: 'icomoon';
+      src: url('fonts/icomoon.eot?i5p83v');
+      src: url('fonts/icomoon.eot?i5p83v#iefix') format('embedded-opentype'),
+        url('fonts/icomoon.ttf?i5p83v') format('truetype'),
+        url('fonts/icomoon.woff?i5p83v') format('woff'),
+        url('fonts/icomoon.svg?i5p83v#icomoon') format('svg');
+      font-weight: normal;
+      font-style: normal;
+      font-display: block;
+    }
+
+    .icon {
+      font-family: icomoon;
+      font-size: 20px;
+    }
+
+    .box4 {
+      height: 0px;
+      width: 0px;
+      border-top: 30px solid pink;
+      border-right: 30px solid black;
+      border-bottom: 30px solid gold;
+      border-left: 30px solid green;
+    }
+
+    .box {
+      overflow: hidden;
+    }
+
+    .box5 {
+      height: 0;
+      width: 0;
+      border: 30px solid transparent;
+      border-top-color: pink;
+    }
+
+    .vertical {
+      display: inline-block;
+      width: 100px;
+      height: 100px;
+      background: url(./asset/pic.jpg) 0 0 / 100% no-repeat;
+      vertical-align: middle;
+    }
+
+    i:first-of-type {
+      color: aqua;
+    }
+
+    .duihao {
+      position: absolute;
+      height: 1em;
+      width: 0.5em;
+      border-color: #009933;
+      border-style: solid;
+      border-width: 0 0.3em 0.25em 0;
+      transform: rotate(45deg);
+    }
+
+    .protrity {
+      color: #009933;
+    }
+
+    body div:last-child {
+      border: 2px solid red;
+      color: antiquewhite;
+    }
+
+    .search {
+      position: relative;
+      width: 249px;
+      height: 32px;
+      border: 1px solid #ccc;
+    }
+
+    .search::after {
+      content: '';
+      position: absolute;
+      top: 9px;
+      right: 10px;
+      height: 8px;
+      width: 8px;
+      border-right: 1px solid #858383;
+      border-bottom: 1px solid #858383;
+      transform: rotate(45deg);
+      transform-origin: 75% 75%;
+      transition: all .4s;
+    }
+
+    .search:hover::after {
+      transform: rotate(-135deg);
+    }
   </style>
+  <script>
+    let a = { a: 1, b: 2 }
+    a.__proto__.c = 3
+    // let a = [1, 2, 3]
+    for (x in a) {
+      console.log(x)
+    }
+  </script>
 </head>
+
 <body>
-  <div class="box1"></div>
-  <div class="box2"></div>
-  <div class="box3"></div>
+  <div class="box">
+    <div class="box1">
+      <div class="box2"></div>
+    </div>
+    <div class="box2"></div>
+    <div class="box3 icon">&#xe901;</div>
+  </div>
+
+  <div class="box4"></div>
+  <div class="box5"></div>
+  <i class="vertical">1</i>aajshjd
+  <i class="vertical">2</i>aajshjd
+  <div class="duihao"></div>
+
+  <div>2</div>
+  <div>3</div>
+  <div>4</div>
+  <div>5</div>
+  <div class="protrity">1</div>
+
+  <div class="search"></div>
 </body>
+
 </html>
