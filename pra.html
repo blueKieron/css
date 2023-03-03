@@ -59,9 +59,9 @@
       border-left: 30px solid green;
     }
 
-    .box {
+    /* .box {
       overflow: hidden;
-    }
+    } */
 
     .box5 {
       height: 0;
@@ -96,10 +96,10 @@
       color: #009933;
     }
 
-    body div:last-child {
+    /* body div:last-child {
       border: 2px solid red;
       color: antiquewhite;
-    }
+    } */
 
     .search {
       position: relative;
@@ -125,6 +125,75 @@
     .search:hover::after {
       transform: rotate(-135deg);
     }
+
+    .padding {
+      width: 100px;
+      height: 100px;
+      background-color: #009933;
+    }
+
+    .padding div {
+      padding: 30px;
+    }
+
+    .relative {
+      position: relative;
+      top: 0;
+      left: 0;
+      width: 100px;
+      height: 100px;
+      background-color: #858383;
+    }
+
+    .shadow {
+      width: 100px;
+      height: 100px;
+      box-shadow: 0 0 12px #009933;
+    }
+
+    /* body {
+      perspective: 500px;
+    } */
+
+    .fanzhuan {
+      position: relative;
+      width: 100px;
+      height: 100px;
+      transform-style: preserve-3d;
+      transition: all 2s;
+    }
+
+    .heima {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100px;
+      width: 100px;
+      background-color: rgb(237, 140, 13);
+      z-index: 1;
+    }
+
+    .dengni {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100px;
+      width: 100px;
+      background-color: palevioletred;
+      transform: rotateY(180deg);
+    }
+
+    .fanzhuan:hover {
+      transform: rotateY(180deg);
+    }
+
+    /* .ceshi[class='ceshi'] {
+      color: #009933;
+    }
+
+    .ceshi1 .ceshi {
+      color: aqua;
+    } */
   </style>
   <script>
     let a = { a: 1, b: 2 }
@@ -158,6 +227,25 @@
   <div class="protrity">1</div>
 
   <div class="search"></div>
+  <div class="padding">
+    <div></div>
+  </div>
+
+  <div class="relative"></div>
+  <div>2</div>
+  <div class="shadow"></div>
+  <div class="fanzhuan">
+    <!-- <div class="heima">黑马</div> -->
+    <div class="dengni">等你</div>
+  </div>
+
+  <div class="ceshi1">
+    <div class="ceshi">
+      2121
+    </div>
+  </div>
+
+
 </body>
 
 </html>
