@@ -105,6 +105,9 @@
 ![输入图片说明](https://raw.githubusercontent.com/blueKieron/drawingBed/main/notes/2023-03-03-cssnote/PvMasIMMDvRGho1Z.png)      
 ![输入图片说明](https://raw.githubusercontent.com/blueKieron/drawingBed/main/notes/2023-03-03-cssnote/woQYej3IO6NL5VpM.png)
 
+## 私有前缀
+![输入图片说明](https://raw.githubusercontent.com/blueKieron/drawingBed/main/notes/2023-03-03-cssnote/54Tba8UCAEhKofca.png)
+
 
 
 
@@ -149,11 +152,11 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyNzg0ODk3MCwxMDI2Mjg4ODQyLDEwNz
-k5MTUyOTUsODgwNTQ1MDkzLC0xNDAyNDIyNDIwLC0xNTA4Mjk4
-MDA0LC0yMDkwNTM4MjU3LDE3ODcyNTc4NjUsOTIyNzc4NjMsMT
-czOTQ5Mjk5MCwtMjA2MDk2NjQ5NCwtNjcwMzA4NDQ5LC02ODYz
-Njg4ODgsLTE1MTIyMDA1MTgsNjExMDM1Njg4LDYxMTAzNTY4OC
-wxNzMxMTAyNTM1LDYzMzU1Mjc0NSw4NjQ0MTQ5NzQsNTI3MjA4
-MTU4XX0=
+eyJoaXN0b3J5IjpbLTIxMDk2NzM1NDQsMTUyNzg0ODk3MCwxMD
+I2Mjg4ODQyLDEwNzk5MTUyOTUsODgwNTQ1MDkzLC0xNDAyNDIy
+NDIwLC0xNTA4Mjk4MDA0LC0yMDkwNTM4MjU3LDE3ODcyNTc4Nj
+UsOTIyNzc4NjMsMTczOTQ5Mjk5MCwtMjA2MDk2NjQ5NCwtNjcw
+MzA4NDQ5LC02ODYzNjg4ODgsLTE1MTIyMDA1MTgsNjExMDM1Nj
+g4LDYxMTAzNTY4OCwxNzMxMTAyNTM1LDYzMzU1Mjc0NSw4NjQ0
+MTQ5NzRdfQ==
 -->
