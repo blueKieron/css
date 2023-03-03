@@ -106,7 +106,8 @@
 ![image](https://user-images.githubusercontent.com/48239113/222745908-06dd8417-efd9-457b-9b03-4abb0afe5026.png)
 
 ## 私有前缀
-![image](https://user-images.githubusercontent.com/48239113/222752333-a30cdde7-2b03-49c9-9cfb-5de6a9eabfe9.png)
+![image](https://user-images.githubusercontent.com/48239113/222752878-9aba871e-0d0e-496e-8e53-095bc08624a7.png)
+
 
 
 
