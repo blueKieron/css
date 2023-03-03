@@ -97,7 +97,7 @@
 ![image](https://user-images.githubusercontent.com/48239113/222310448-4c1baff1-b0b6-4d4e-8032-511f897954a8.png)
 ![image](https://user-images.githubusercontent.com/48239113/222310481-e2a6264a-70bc-41b0-bb2e-907999271e78.png)
 ![image](https://user-images.githubusercontent.com/48239113/222310498-9650454f-c21a-4c48-80d7-124e48898382.png)
-![](2023-03-02-14-20-48.png)
+![](./2023-03-02-14-20-48.png)
 ![](2023-03-02-14-35-01.png)
 ![](2023-03-02-17-14-53.png)
 ![](2023-03-02-17-21-10.png)
