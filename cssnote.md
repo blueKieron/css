@@ -108,6 +108,10 @@
 ## 私有前缀
 ![image](https://user-images.githubusercontent.com/48239113/222752878-9aba871e-0d0e-496e-8e53-095bc08624a7.png)
 
+## 移动端
+![image](https://user-images.githubusercontent.com/48239113/223062769-55154bf4-9998-443c-8314-7b498368e731.png)
+
+
 
 
 
