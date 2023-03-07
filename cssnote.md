@@ -111,6 +111,10 @@
 ## 移动端
 ![image](https://user-images.githubusercontent.com/48239113/223062769-55154bf4-9998-443c-8314-7b498368e731.png)
 
+## flex
+![image](https://user-images.githubusercontent.com/48239113/223303313-007ee471-1c2a-4d60-87c0-477a3c90cf36.png)
+
+
 
 
 
