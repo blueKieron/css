@@ -114,6 +114,10 @@
 ## flex
 ![image](https://user-images.githubusercontent.com/48239113/223303313-007ee471-1c2a-4d60-87c0-477a3c90cf36.png)
 
+## 线性渐变
+![image](https://user-images.githubusercontent.com/48239113/223676591-a90e8b0d-b5a7-4cd9-8eb5-a2935329277d.png)
+
+
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTc5NDM0ODQ5MSw0MDg4MDUyMjIsMTQ1ND
 Q4Njc0MSwtMTQxMjcyOTk5NSwtMTU0MDM5MDUyMSwtMjEwOTY3
