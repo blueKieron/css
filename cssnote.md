@@ -117,6 +117,8 @@
 ## 线性渐变
 ![image](https://user-images.githubusercontent.com/48239113/223676591-a90e8b0d-b5a7-4cd9-8eb5-a2935329277d.png)
 
+![20230310095041](https://gitnotes-pic.oss-cn-qingdao.aliyuncs.com/css/20230310095041.png)
+![img-20230310095200](https://gitnotes-pic.oss-cn-qingdao.aliyuncs.com/css/20230310095200.png)
 
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbMTE5NjM4NTEwMSwtNzk0MzQ4NDkxLDQwOD
