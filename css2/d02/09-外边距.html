@@ -1,59 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <style type="text/css">
-    .box1{
-      width:200px;
-      height:200px;
-      background-color: sandybrown;
-      border:5px slateblue solid;
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style type="text/css">
+      .box1 {
+        width: 200px;
+        height: 200px;
+        background-color: sandybrown;
+        border: 5px slateblue solid;
 
-      /* 外边距指的是盒子与其他盒子之间的距离
-          不会影响可见框的大小，而是会影响到盒子的位置
-          盒子的四个方向的外边距：
-            margin-top
-            margin-right
-            margin-bottom
-            margin-left 
+        /* 
+        外边距指的是盒子与其他盒子之间的距离
+        不会影响可见框的大小，而是会影响到盒子的位置
+        盒子的四个方向的外边距：
+          margin-top
+          margin-right
+          margin-bottom
+          margin-left 
+        由于页面中的元素都是靠左和靠上摆放的  
+        所以注意当我们设置上和左外边距时，会导致盒子自身的位置发生变化
+        而如果是设置右和下外边距会改变其他盒子的位置
+        */
+        margin-top: 100px;
 
-          由于页面中的元素都是靠左和靠上摆放的  
-            所以注意当我们设置上和左外边距时，会导致盒子自身的位置发生变化
-            而如果是设置右和下外边距会改变其他盒子的位置
-      */
+        /* 
+        外边距也可以是一个负值，如果外边距设置为负值，则元素往反方向移动 
+        margin-top: -100px;
+        */
 
-      margin-top: 100px;
+        /* 
+        margin还可以设置为auto，auto一般只设置给水平方向的margin
+        如果只指定为左或右外边距的margin为auto，则会将外边距设置为最大值 
+        垂直方向外边距如果设置为auto，则外边距默认就是0
 
-      /* 外边距也可以是一个负值，如果外边距设置为负值，则元素往反方向移动 
-      margin-top: -100px;
-      */
+        如果将left和right同时设置为auto，则会将两侧的外边距设置为相同的值
+        就可以使元素在父元素中居中，所以我们经常将左右外边距设置为auto
+        */
 
-      /* margin还可以设置为auto，auto一般只设置给水平方向的margin
-      如果只指定为左或右外边距的margin为auto，则会将外边距设置为最大值 
-      垂直方向外边距如果设置为auto，则外边距默认就是0
+        /* 
+        外边距同样可以使用简写属性margin 可以同时设置四个方向的外边距规则和padding一样
+        margin: 10px 20px 30px 40px; 
+        */
 
-      如果将left和right同时设置为auto，则会将两侧的外边距设置为相同的值
-      就可以使元素在父元素中居中，所以我们经常将左右外边距设置为auto
-      */
-
-      /* 外边距同样可以使用简写属性margin 可以同时设置四个方向的外边距规则和padding一样
-      margin: 10px 20px 30px 40px; 
-      */
-
-      margin-right: auto;
-      margin-left: auto;
-    }
-    .box2{
-      width:200px;
-      height:200px;
-      background-color: sandybrown;
-    }
-  </style>
-</head>
-<body>
-  <div class="box1"></div>
-  <div class="box2"></div>
-</body>
+        margin-right: auto;
+        margin-left: auto;
+      }
+      .box2 {
+        width: 200px;
+        height: 200px;
+        background-color: sandybrown;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box1"></div>
+    <div class="box2"></div>
+  </body>
 </html>

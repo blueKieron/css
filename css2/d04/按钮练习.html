@@ -1,38 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <style type="text/css">
-    /* 在第一次切换图片时，会发现图片有一个非常快的闪烁，这个闪烁会造成一次不佳的用户体验
-    原因：
-      背景图片是以外部资源的形式加载进网页的，浏览器每加载一个外部资源就需要单独的发送一次请求
-      但是我们外部资源并不是同时加载，浏览器会在资源被使用才去加载资源
-      练习中，一上来浏览器只会加载link.png 由于hover和active的状态没有马上触发
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style type="text/css">
+      /* 
+      在第一次切换图片时，会发现图片有一个非常快的闪烁，这个闪烁会造成一次不佳的用户体验
+      原因：
+        背景图片是以外部资源的形式加载进网页的，浏览器每加载一个外部资源就需要单独的发送一次请求
+        但是我们外部资源并不是同时加载，浏览器会在资源被使用才去加载资源
+        练习中，一上来浏览器只会加载link.png 由于hover和active的状态没有马上触发
         所以hover.png 和active.png并不是立即加载的
-      当hover被触发时，浏览器才去加载hover.png
-      当active被触发时，浏览器才去加载active.png
-      由于加载图片需要一定的时间，所以在加载和显示过程中会有一段时间，背景图片无法显示，倒是出现闪烁
+        当hover被触发时，浏览器才去加载hover.png
+        当active被触发时，浏览器才去加载active.png
+        由于加载图片需要一定的时间，所以在加载和显示过程中会有一段时间，背景图片无法显示，倒是出现闪烁
 
-      将三个图片整合为一张图片 这样可以将三张图片一起加载，，就不会出现闪烁的问题
-      然后在通过background-position来切换要显示的图片的位置，这种计数叫图片整合技术(CSS-Sprite) 
+        将三个图片整合为一张图片 这样可以将三张图片一起加载，，就不会出现闪烁的问题
+        然后在通过background-position来切换要显示的图片的位置，这种计数叫图片整合技术(CSS-Sprite) 
         优点：
           1、将多个图片整合为一张里，浏览器只需要发送一次请求，可以同时加载多个图片，提高访问效率，提高了用户体验
           2、将多个图片整合为一张图片，减小了图片的总大小，提高了请求的速度，增加了用户体验
       */
-    .btn:link{
-      display: block;
-      width:500px;
-      height:400px;
-      background-image: url(img/btn1.png);
-      background-repeat: no-repeat;
-    }
-    .btn:hover{}
-    .btn:active{}
-  </style>
-</head>
-<body>
-  <a class="btn" href="#"></a>
-</body>
+      .btn:link {
+        display: block;
+        width: 500px;
+        height: 400px;
+        background-image: url(img/btn1.png);
+        background-repeat: no-repeat;
+      }
+      .btn:hover {
+      }
+      .btn:active {
+      }
+    </style>
+  </head>
+  <body>
+    <a class="btn" href="#"></a>
+  </body>
 </html>

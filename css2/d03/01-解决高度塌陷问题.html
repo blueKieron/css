@@ -1,42 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style type="text/css">
+      .box1 {
+        border: 1px solid red;
+      }
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <style type="text/css">
-    .box1 {
-      border: 1px solid red;
-    }
+      .box2 {
+        width: 100px;
+        height: 100px;
+        background-color: darkgoldenrod;
 
-    .box2 {
-      width: 100px;
-      height: 100px;
-      background-color: darkgoldenrod;
-
-      float:left;
-    }
-    /* 解决高度塌陷的方案二：
+        float: left;
+      }
+      /* 
+      解决高度塌陷的方案二：
       可以直接在高度塌陷的父元素最后添加一个空白的div
       由于这个div并没有浮动，所以它是可以撑开父元素的高度的
       然后在对其进行清除浮动，这样可以通过这个空白的div来撑开父元素的高度
       基本没有副作用
 
       使用这种方式虽然可以解决问题，但是会在页面中添加多余的结构
-    */
-    .clear{
-      clear: both;
-    }
-  </style>
-</head>
+      */
+      .clear {
+        clear: both;
+      }
+    </style>
+  </head>
 
-<body>
-  <div class="box1">
-    <div class="box2"></div>
-    <div class="clear"></div>
-  </div>
-
-</body>
-
+  <body>
+    <div class="box1">
+      <div class="box2"></div>
+      <div class="clear"></div>
+    </div>
+  </body>
 </html>

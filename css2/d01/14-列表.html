@@ -1,75 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <style type="text/css">
-    /* 去掉项目符号 */
-    ul{
-      list-style: none;
-    }
-  </style>
-</head>
-<body>
-    <!-- 在html中也可以创建列表，在网页中一共三种列表：
-        1、无序列表
-        2、有序列表
-        3、定义列表 
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style type="text/css">
+      /* 去掉项目符号 */
+      ul {
+        list-style: none;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 
+    在html中也可以创建列表，在网页中一共三种列表：
+      1、无序列表 ul
+      2、有序列表 ol
+      3、定义列表 dl
     -->
 
-    <!-- 无序列表
-      --使用ul标签来创建一个无序列表 
-      -使用li在ul中创建列表项
+    <!-- 
+    无序列表
+    -使用ul标签来创建一个无序列表 
+    -使用li在ul中创建列表项
 
-        通过type属性可以修改无序列表的项目符号
-          可选值：
-            disc，默认值 实心圆点
-            square，实心的方块
-            circle,实心圆
-        zhuyi:默认的项目符号我们一般都不使用
-              如果需要设置项目符号，则可以采用为li设置背景图片的方式来设置
-          ul和li都是块元素
+    通过type属性可以修改无序列表的项目符号
+    可选值：
+      disc，默认值 实心圆点
+      square，实心的方块
+      circle,实心圆
+    注意:默认的项目符号我们一般都不使用
+      如果需要设置项目符号，则可以采用为li设置背景图片的方式来设置
+      ul和li都是块元素
     -->
 
-      <ul type="disc">
-        <li>aaaaa</li>
-        <li>ddddd</li>
-        <li>vvvvvv</li>
-        <li>qqq</li>
-      </ul>
+    <ul type="disc">
+      <li>aaaaa</li>
+      <li>ddddd</li>
+      <li>vvvvvv</li>
+      <li>qqq</li>
+    </ul>
 
-      <!-- 有序列表和无序列表类似，只不过它使用ol来代替ul 
-            有序列表使用有序的序号作为项目符号
-            type属性，可以指定序号的类型
-            可选值：1、默认值，使用阿拉伯数字
-                    a/A 采用小写或大写字母作为序号
-                    i/I 采用小写或大写的罗马数字作为序号
-            ol也是块元素
-      -->
-      <ol type="i">
-        <li>aaaaa</li>
-        <li>ddddd</li>
-        <li>vvvvvv</li>
-        <li>qqq</li>
-      </ol>
+    <!-- 
+    有序列表和无序列表类似，只不过它使用ol来代替ul 
+    有序列表使用有序的序号作为项目符号
+    type属性，可以指定序号的类型
+    可选值：
+    1.默认值，使用阿拉伯数字
+    2.a/A 采用小写或大写字母作为序号
+    3.i/I 采用小写或大写的罗马数字作为序号
+    ol也是块元素
+    -->
+    <ol type="i">
+      <li>aaaaa</li>
+      <li>ddddd</li>
+      <li>vvvvvv</li>
+      <li>qqq</li>
+    </ol>
 
-      <!-- 列表之间都是可以互相嵌套，可以在无序列表中放个有序列表
-      也可以在有序列表中放一个无序列表 
-      -->
+    <!-- 
+    列表之间都是可以互相嵌套，可以在无序列表中放个有序列表
+    也可以在有序列表中放一个无序列表 
+    -->
 
-      <!-- 定义列表用来对一些词汇或者内容进行定义
-          使用dl来创建一个定义列表
-            dl中有两个子标签
-              dt：被定义的内容
-              dd：对定义的内容的描述
-      -->
-      <dl>
-        <dt>数学</dt>
-        <dd>算数的学习</dd>
-        <dt>语文</dt>
-        <dd>算数的学习</dd>
-      </dl>
-
-</body>
+    <!-- 
+    定义列表用来对一些词汇或者内容进行定义
+    使用dl来创建一个定义列表
+    dl中有两个子标签
+    dt：被定义的内容
+    dd：对定义的内容的描述
+    -->
+    <dl>
+      <dt>数学</dt>
+      <dd>算数的学习</dd>
+      <dt>语文</dt>
+      <dd>算数的学习</dd>
+    </dl>
+  </body>
 </html>

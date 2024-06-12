@@ -1,44 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <style type="text/css">
-  /* 为所有具有title属性的p元素，设置一个背景颜色
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style type="text/css">
+      /* 
+      为所有具有title属性的p元素，设置一个背景颜色
       属性选择器
       可以根据元素中的属性或者属性值来选取元素
       语法：
-         [属性值] 选取含有指定属性的元素
+         [属性名] 选取含有指定属性的元素
          [属性名="属性值"] 选取含有指定属性值的元素
          [属性名^="属性值"] 选取以指定属性值开头的元素
          [属性名$="属性值"] 选取以指定属性值结尾的元素
          [属性名*="属性值"] 选取包含指定属性值的元素
-  */
+      */
 
-  /* 为title属性值是hello的元素设置一个背景颜色 */
-  p[title="hello"]{
-    background-color: sandybrown;
-  }
-  /* 为title属性值以ab开头的元素设置一个背景颜色 */
-  p[title^="ab"]{
-    background-color: silver;
-  }
+      /* 为title属性值是hello的元素设置一个背景颜色 */
+      p[title="hello"] {
+        background-color: sandybrown;
+      }
+      /* 为title属性值以ab开头的元素设置一个背景颜色 */
+      p[title^="ab"] {
+        background-color: silver;
+      }
 
-  /* 为title属性值以c结尾的元素设置一个背景颜色 */
-  p[title$="n"]{
-    background-color:springgreen;
-  }
-  </style>
-</head>
-<body>
-  <!-- title属性，这个属性可以给任何标签指定
-  当鼠标移入到元素上时，元素中的title属性的值将会作为提示文字显示 
-  -->
-  <p title="我是tilte中的文字">我是以一个段落</p>
-  <p>我是以一个段落</p>
-  <p title="hello">我是以一个段落</p>
-  <p title="abb">我是以一个段落</p>
-  <p title="abbn">我是以一个段落</p>
-</body>
+      /* 为title属性值以c结尾的元素设置一个背景颜色 */
+      p[title$="n"] {
+        background-color: springgreen;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 
+    title属性，这个属性可以给任何标签指定
+    当鼠标移入到元素上时，元素中的title属性的值将会作为提示文字显示 
+    -->
+    <p title="我是tilte中的文字">我是以一个段落</p>
+    <p>我是以一个段落</p>
+    <p title="hello">我是以一个段落</p>
+    <p title="abb">我是以一个段落</p>
+    <p title="abbn">我是以一个段落</p>
+  </body>
 </html>

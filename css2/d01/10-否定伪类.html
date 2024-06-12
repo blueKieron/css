@@ -1,25 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <style type="text/css">
-    /* 为所有p元素设置背景颜色，除了class值为hello的标签 
-          否定伪类：可以从已选择的元素中剔除某些元素
-          语法：
-              ：not(选择器)
-    */
-    p:not(.hello){
-      background-color: burlywood;
-    }
-  </style>
-</head>
-<body>
-  <p>ppppppppppppppppppp</p>
-  <p>ppppppppppppppppppp</p>
-  <p class="hello">ppppppppppppppppppp</p>
-  <p>ppppppppppppppppppp</p>
-  <p>ppppppppppppppppppp</p>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style type="text/css">
+      /* 
+      为所有p元素设置背景颜色，除了class值为hello的标签 
+      否定伪类：可以从已选择的元素中剔除某些元素
+      语法：
+        :not(选择器)
+      */
+      p:not(.hello) {
+        background-color: burlywood;
+      }
+    </style>
+  </head>
+  <body>
+    <p>ppppppppppppppppppp</p>
+    <p>ppppppppppppppppppp</p>
+    <p class="hello">ppppppppppppppppppp</p>
+    <p>ppppppppppppppppppp</p>
+    <p>ppppppppppppppppppp</p>
+  </body>
 </html>

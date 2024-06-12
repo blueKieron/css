@@ -1,43 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <style type="text/css">
-  .box1{
-    width:200px;
-    height: 200px;
-    background-color: skyblue;
-    border:5px rosybrown solid;
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style type="text/css">
+      .box1 {
+        width: 200px;
+        height: 200px;
+        background-color: skyblue;
+        border: 5px rosybrown solid;
 
-    /* 内边距（padding），指的是盒子的内容区和盒子边框之间的距离
-      一共有四个方向的内边距，可以通过：
+        /* 
+        内边距（padding），指的是盒子的内容区和盒子边框之间的距离
+        一共有四个方向的内边距，可以通过：
         padding-top
         padding-right 
         padding-bottom
         padding-left
-          来设置四个方向的内边距 
+        来设置四个方向的内边距 
 
-         内边距会影响盒子的可见框的大小，元素的背景会延伸到内边距
-            盒子的大小由内容区、内边距和边框共同决定
-            盒子可见框的宽度= 左边框+左内边距+内容区+右内边距+右边框
+        内边距会影响盒子的可见框的大小，元素的背景会延伸到内边距
+          盒子的大小由内容区、内边距和边框共同决定
+          盒子可见框的宽度 = 左边框+左内边距+内容区+右内边距+右边框
         
-        使用padding可以同时设置边框的宽度 规则和border-width一致
-    */
-    padding-top: 200px;
-  }
-  .box2{
-    width: 200px;
-    height:200px;
-  }
-  </style>
-</head>
-<body>
-  <div class="box1">
-    <div class="box2"> 
-
+        使用padding可以同时设置内边距的宽度 规则和border-width一致
+        */
+        padding-top: 200px;
+      }
+      .box2 {
+        width: 200px;
+        height: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box1">
+      <div class="box2"></div>
     </div>
-  </div>
-</body>
+  </body>
 </html>

@@ -1,43 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <style type="text/css">
-  
-    /* 使用伪元素来表示元素中的一些特殊的位置*/
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style type="text/css">
+      /* 使用伪元素来表示元素中的一些特殊的位置*/
 
-    /* 为p中第一个字符来设置一个特殊的样式 */
-    p::first-letter{
-      color:darkgray;
-      font-size:20px;
-    }
+      /* 为p中第一个字符来设置一个特殊的样式 */
+      p::first-letter {
+        color: darkgray;
+        font-size: 20px;
+      }
 
-    /* 为p中的第一行设置一个背景颜色为黄色 */
-    p::first-line{
-      background-color: darkolivegreen;
-    }
+      /* 为p中的第一行设置一个背景颜色为黄色 */
+      p::first-line {
+        background-color: darkolivegreen;
+      }
 
-    /* ::before表示元素最前面的部分
-    一般before都需要结合content这个样式一起使用
-    通过content可以向before或after的位置添加一些内容 
+      /* 
+      ::before表示元素最前面的部分
+      一般before都需要结合content这个样式一起使用
+      通过content可以向before或after的位置添加一些内容 
 
       ::after表示元素的最后面部分
     */
-    p::before{
-      content:"我会出现在最前面";
-      color:salmon;
-    }
-    p::after{
-      content:"我会出现在最后面";
-      color:salmon;
-    }
-  </style>
-</head>
-<body>
-  <p>
-    我是一个标签Vue CLI 致力于将 Vue 生态中的工具基础标准化。它确保了各种构建工具能够基于智能的默认配置即可平稳衔接，这样你可以专注在撰写应用上，而不必花好几天去纠结配置的问题。与此同时，它也为每个工具提供了调整配置的灵活性，无需 eject
-  </p>
-</body>
+      p::before {
+        content: "我会出现在最前面";
+        color: salmon;
+      }
+      p::after {
+        content: "我会出现在最后面";
+        color: salmon;
+      }
+      /* 
+      为p标签中选中的内容使用样式
+      可以使用::selection伪元素
+      注意:在火狐中使用::-moz-selection
+      */
+      p::selection {
+        background-color: salmon;
+      }
+    </style>
+  </head>
+  <body>
+    <p>
+      我是一个标签Vue CLI 致力于将 Vue
+      生态中的工具基础标准化。它确保了各种构建工具能够基于智能的默认配置即可平稳衔接，这样你可以专注在撰写应用上，而不必花好几天去纠结配置的问题。与此同时，它也为每个工具提供了调整配置的灵活性，无需
+      eject
+    </p>
+  </body>
 </html>

@@ -1,40 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <style type="text/css">
-    .box1{
-      border:10px steelblue solid;
-      height:100px;
-    }
-    .box2{
-      width: 100px;
-      height: 100px;
-      background-color: tan;
-      float: left;
-    }
-    /* 在文档流中，父元素默认是被子元素撑开的， 
-          但是当为子元素设置浮动后，子元素会完全脱离文档流
-          此时将会导致子元素无法撑起父元素的高度，导致父元素的高度塌陷
-          由于父元素塌陷，则父元素下面的所有元素都会向上移动，这样将会导致页面混乱
-          
-          所以在开发中一定要避免出现高度塌陷问题
-              我们可以将父元素的高度写死，以避免塌陷
-              但是一旦高度写死，父元素的高度将不能自动适应子元素高度，所以这种方案不推荐使用
-          */
-    .box3{
-      height: 100px;
-      background-color: tan;
-    }
-  </style>
-</head>
-<body>
-  
-  <div class="box1">
-    <div class="box2"></div>
-  </div>
-  <div class="box3"></div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style type="text/css">
+      .box1 {
+        border: 10px steelblue solid;
+        height: 100px;
+      }
+      .box2 {
+        width: 100px;
+        height: 100px;
+        background-color: tan;
+        float: left;
+      }
+      /* 
+      在文档流中，父元素默认是被子元素撑开的， 
+      但是当为子元素设置浮动后，子元素会完全脱离文档流
+      此时将会导致子元素无法撑起父元素的高度，导致父元素的高度塌陷
+      由于父元素塌陷，则父元素下面的所有元素都会向上移动，这样将会导致页面混乱
+      
+      所以在开发中一定要避免出现高度塌陷问题
+        我们可以将父元素的高度写死，以避免塌陷
+        但是一旦高度写死，父元素的高度将不能自动适应子元素高度，所以这种方案不推荐使用
+      */
+      .box3 {
+        height: 100px;
+        background-color: tan;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box1">
+      <div class="box2"></div>
+    </div>
+    <div class="box3"></div>
+  </body>
 </html>

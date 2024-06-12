@@ -1,54 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style type="text/css">
+      /* 
+      为div中的span设置一个颜色为绿色
+      后代元素选择器
+      作用：选中指定元素的指定后代元素
+      语法：祖先元素 后代元素{} 
+      */
+      #d1 span {
+        color: greenyellow;
+      }
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <style type="text/css">
-    /* 为div中的span设置一个颜色为绿色
-  后代元素选择器
-  作用：选中指定元素的指定后代元素
-  语法：祖先元素 后代元素{} 
-  */
-    #1 span {
-      color: greenyellow;
-    }
+      /* 选中id为d1的div中的p元素中的span元素 */
+      #d1 p span {
+        font-size: 50px;
+      }
 
-    /* 选中id为d1的div中的p元素中的span元素 */
-    #d1 p span {
-      font-size: 50px;
-    }
+      /* 为div的子元素span设置一个背景颜色 */
+      /* 
+      子元素选择器
+      作用：选中指定父元素的指定子元素
+      语法：父元素 > 子元素 
+        IE6及以下不支持子元素选择器
+      */
+      div > span {
+        background-color: greenyellow;
+      }
+    </style>
+  </head>
 
-    /* 为div的子元素span设置一个背景颜色 */
-    /* 子元素选择器
-  作用：选中指定父元素的指定子元素
-  语法：父元素>子元素 
-    IE6及一下不支持子元素选择器
-    */
-    div>span {
-      background-color: greenyellow;
-    }
-  </style>
-</head>
+  <body>
+    <!-- 
+    元素之间的关系
+    父元素：直接包含子元素的元素
+    子元素：直接被父元素包含的元素
+    祖先元素：直接或间接包含后代元素的元素
+    后代元素：直接或间接被祖先包含的元素，子元素也是后代元素
+    兄弟元素：拥有相同父元素的元素叫兄弟元素 
+    -->
 
-<body>
-
-  <!-- 元素之间的关系
-  父元素：直接包含子元素的元素
-  子元素：直接被父元素包含的元素
-  祖先元素：直接或间接包含后代元素的元素
-  后代元素：直接或间接被祖先包含的元素，子元素也是后代元素
-  兄弟元素：拥有相同父元素的元素叫兄弟元素 
-  -->
-
-
-  <div id="d1">
-    <span>zzzzzzzzzzz</span>
-    <p><span>iiiiiiiiiiiiiiii</span></p>
-  </div>
-  <div><span>xxxxxxxxxxxxx</span></div>
-  <span>xxxxxxxxxxxxx</span>
-</body>
-
+    <div id="d1">
+      <span>zzzzzzzzzzz</span>
+      <p><span>iiiiiiiiiiiiiiii</span></p>
+    </div>
+    <div><span>xxxxxxxxxxxxx</span></div>
+    <span>xxxxxxxxxxxxx</span>
+  </body>
 </html>
